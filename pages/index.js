@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Flex, Box, Text, Button } from '@chakra-ui/react';
+import { Flex, Box, Text, Button, Container } from '@chakra-ui/react';
 
 import Property from '../components/Property';
 import { baseUrl, fetchApi } from '../utils/fetchApi';
@@ -21,8 +21,40 @@ const Banner= ({ purpose, title1, title2, desc1, desc2, buttonText, LinkName, im
 
 export default function Home({ propertiesForSale, propertiesForRent }) {
 
+    const outerBoxStyles = {
+      width: '1300px',
+      height: '600px',
+      background:
+      'url(https://images.alphacoders.com/435/435117.jpg)',
+    }
+  
+    const innerBoxStyles = {
+      alignItems: 'center',
+      textAlign: 'center',
+      width: '1300px',
+      height: '600px',
+      color: 'white',
+      fontWeight: 'bold',
+      fontSize: '20px',
+    }
+
   return (
-    <box>
+    <box >
+
+      <Flex
+        paddingTop="10px"
+        flexWrap='wrap'
+        spacing='24px'
+        gap='16px'
+        width="650px"
+      >
+        <Box sx={outerBoxStyles}>
+          <Box sx={innerBoxStyles} backdropFilter='auto' backdropContrast='30%'>
+            Box with Backdrop Contrast
+          </Box>
+        </Box>
+      </Flex>
+
       <Banner
         purpose="RENT A HOME"
         title1="Rental Homes for,Villas, Homes"
