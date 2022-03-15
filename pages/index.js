@@ -40,16 +40,6 @@ export default function Home({ propertiesForSale, propertiesForRent }) {
 
   return (
     <box >
-
-      <Flex
-        paddingTop="10px"
-        flexWrap='wrap'
-        spacing='24px'
-        gap='16px'
-        width="650px"
-      >
-      </Flex>
-
       <Banner
         purpose="RENT A HOME"
         title1="Rental Homes for,Villas, Homes"
