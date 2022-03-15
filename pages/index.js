@@ -33,7 +33,7 @@ export default function Home({ propertiesForSale, propertiesForRent }) {
       textAlign: 'center',
       width: '1300px',
       height: '600px',
-      color: 'white',
+      color: 'whitw',
       fontWeight: 'bold',
       fontSize: '20px',
     }
@@ -48,11 +48,6 @@ export default function Home({ propertiesForSale, propertiesForRent }) {
         gap='16px'
         width="650px"
       >
-        <Box sx={outerBoxStyles}>
-          <Box sx={innerBoxStyles} backdropFilter='auto' backdropContrast='30%'>
-            Box with Backdrop Contrast
-          </Box>
-        </Box>
       </Flex>
 
       <Banner
