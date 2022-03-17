@@ -1,5 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project made with the purpose of praticing React.js and Next.js skills.
-
+This is a [Next.js](https://nextjs.org/) project made with the purpose of praticing Material UI and Next.js skills.
+It has a really simple design using pre set components from Material UI. The places and locations are rendered by an API from RapidAPI.
 ## Preview
 
 
