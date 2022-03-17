@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) made wit the purpose of praticing React.js and Next.js skills.
+This is a [Next.js](https://nextjs.org/) project made with the purpose of praticing React.js and Next.js skills.
 
 ## Preview
 
